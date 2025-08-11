@@ -18,6 +18,9 @@ import {
   meta,
   starbucks,
   tesla,
+  KCLlogo,
+  Terranovasoftware,
+  Neighbourhoodtutorlogo,
   shopify,
   carrent,
   jobit,
@@ -42,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "LLM/AI Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Python Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Java Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Javascript Creator",
     icon: creator,
   },
 ];
@@ -116,50 +119,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Undergraduate Research Intern",
+    company_name: "King's College London",
+    icon: KCLlogo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jun 2023 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted in-depth research on Human-Robot interactions, emphasizing Robot behaviours.",
+      "Leveraged the Robot Operating System (ROS) to program and control robots, creating Python scripts to execute targeted tasks.",
+      "Collaborated closely with a multidisciplinary team of researchers to analyze data, draw meaningful conclusions, and articulate research findings in a compelling and rigorous manner which were published.",
+      "Acquired advanced skills in robotics programming, human-centered research methodologies, and data-driven decision-making throughout the internship.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Vice-president",
+    company_name: "King's College London Technology Society",
+    icon: KCLlogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2023 - Apr 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded a team of 12 members, leading meetings, and delegating tasks effectively to achieve society goals.",
+      "Increased society membership by 300% through organized events",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Founder",
+    company_name: "Neighbourhoodtutors",
+    icon: Neighbourhoodtutorlogo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Oversaw day-to-day business operations, including budgeting, marketing, and maintaining financial records",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "Terranova Software",
+    icon: Terranovasoftware,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2024 - Apr 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,67 +196,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Chatbot-based data analysis",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built a chatbot-based data anlysis system for SMEs that converts Natural Language into SQL/Pandas code, which is then automatically executed against users uploaded database to find data, patterns or to visualize data. This can lastly be exported in users choice of format.",
+    tags: [
+      {
+        name: "LLM",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LangChain",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "pink-text-gradient",
+      },
+    ],
+    // image: carrent,
+    source_code_link: "https://github.com/HarisK15/TerraNovaNewFinal",
+  },
+  {
+    name: "Crypto Portfolio Tracker",
+    description:
+      "Built a full-featured cryptocurrency monitoring tool that allows users to track real-time prices, maintain a personalized watchlist, and view historical price trends. Integrated CoinGecko and GNews APIs for live market data and crypto-related news. Implemented price history visualization with Matplotlib and CSV export functionality. Designed a modular backend with caching to optimize API usage and reduce latency. Deployed the application for public access, with persistent storage of watchlists and price history.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Crypto",
+        color: "pink-text-gradient",
+      },
+    ],
+    // image: jobit,
+    source_code_link: "https://github.com/HarisK15/Crypto_App",
+  },
+  {
+    name: "Social Media app",
+    description:
+      "Designed a Social Media website, working as a Full-stack engineer, in a team of 5, where one can sign up, make posts and interact with other users",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    // image: tripguide,
+    source_code_link: "https://github.com/HarisK15/TeamOrange",
   },
 ];
 
