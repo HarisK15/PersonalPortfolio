@@ -22,7 +22,6 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Terranovasoftware from "./company/Terranovasoftware.jpeg";
@@ -31,6 +30,9 @@ import KCLlogo from "./company/KCLlogo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import crypto from "./crypto.png";
+import Terranova from "./Terranova.png";
+import clucker from "./clucker.png";
 
 export {
   logo,
@@ -55,7 +57,6 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
   starbucks,
   tesla,
   KCLlogo,
@@ -63,5 +64,8 @@ export {
   Terranovasoftware,
   carrent,
   jobit,
+  crypto,
   tripguide,
+  Terranova,
+  clucker
 };

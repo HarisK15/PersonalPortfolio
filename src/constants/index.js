@@ -21,11 +21,13 @@ import {
   KCLlogo,
   Terranovasoftware,
   Neighbourhoodtutorlogo,
-  shopify,
   carrent,
   jobit,
+  crypto,
   tripguide,
   threejs,
+  Terranova,
+  clucker,
 } from "../assets";
 
 export const navLinks = [
@@ -213,7 +215,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: carrent,
+    image: Terranova,
     source_code_link: "https://github.com/HarisK15/TerraNovaNewFinal",
   },
   {
@@ -234,7 +236,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: jobit,
+    image: crypto,
     source_code_link: "https://github.com/HarisK15/Crypto_App",
   },
   {
@@ -255,7 +257,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: tripguide,
+    image: clucker,
     source_code_link: "https://github.com/HarisK15/TeamOrange",
   },
 ];
