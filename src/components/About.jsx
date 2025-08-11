@@ -47,7 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a recent computer Science graduate from King's College London achieving a 2:1
+        I’m a recent Computer Science graduate from King’s College London (2:1), passionate about building intelligent, data-driven applications. Skilled in Python, Java, JavaScript, Flask, React, SQL, and API integrations.
+
+        I’ve developed projects ranging from a cryptocurrency watchlist dashboard to AI-powered chatbots.
+
+        Eager to contribute as a software engineer, with a strong foundation in algorithms, data structures, and backend systems.
 
 
       </motion.p>

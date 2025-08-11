@@ -159,10 +159,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2024 - Apr 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with Terranova to develop a chatbot-based data analysis system for SMEs using React, Flask, LangChain, and LLaMA3",
+      "Implemented natural language query handling, SQL/Pandas generation, data visualization, and export features",
+      "Conducted performance testing (unit, manual, metamorphic), usability testing (SUS), and prompt-engineering improvements",
+      "Delivered a 17,000-word dissertation outlining research, development, evaluation, and future work",
     ],
   },
 ];
