@@ -23,7 +23,7 @@ import {
   Neighbourhoodtutorlogo,
   carrent,
   jobit,
-  crypto,
+  Crypto,
   tripguide,
   threejs,
   Terranova,
@@ -236,7 +236,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: crypto,
+    image: Crypto,
     source_code_link: "https://github.com/HarisK15/Crypto_App",
   },
   {

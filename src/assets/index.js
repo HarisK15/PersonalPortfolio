@@ -30,7 +30,7 @@ import KCLlogo from "./company/KCLlogo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import crypto from "./crypto.png";
+import Crypto from "./Crypto.png";
 import Terranova from "./Terranova.png";
 import clucker from "./clucker.png";
 
@@ -64,7 +64,7 @@ export {
   Terranovasoftware,
   carrent,
   jobit,
-  crypto,
+  Crypto,
   tripguide,
   Terranova,
   clucker
