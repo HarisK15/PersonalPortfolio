@@ -1,4 +1,4 @@
-This is my custom-built personal portfolio, inspired by JavaScript Mastery’s 3D Developer Portfolio tutorial. It showcases my work, skills, and contact information through an immersive, interactive 3D web experience. Built with React.js, Three.js, and modern web animation libraries, the site is designed to be visually engaging, fully responsive, and tailored to reflect my personal style.
+This is my custom-built personal portfolio. It showcases my work, skills, and contact information through an immersive, interactive 3D web experience. Built with React.js, Three.js, and modern web animation libraries, the site is designed to be visually engaging, fully responsive, and tailored to reflect my personal style.
 
 live website link: https://harisk-portfolio.vercel.app/
 
