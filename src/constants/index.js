@@ -28,6 +28,7 @@ import {
   threejs,
   Terranova,
   clucker,
+  Backtest
 } from "../assets";
 
 export const navLinks = [
@@ -240,25 +241,25 @@ const projects = [
     source_code_link: "https://github.com/HarisK15/Crypto_App",
   },
   {
-    name: "Social Media app",
+    name: "Equities Backtesting & Live Trading System ",
     description:
-      "Designed a Social Media website, working as a Full-stack engineer, in a team of 5, where one can sign up, make posts and interact with other users",
+      "Designed and implemented a low-latency backtesting and live-trading engine in Python, integrating real-time market data APIs (Alpaca, yfinance) with advanced risk modeling metrics such as Sharpe ratio, Sortino ratio, max drawdown, and Value-at-Risk. Optimized the trade signal processing pipeline to reduce backtest runtime by 45% while handling over 2M historical data points through vectorized Pandas/Numpy operations. Developed a modular strategy framework supporting SMA crossover, RSI, and custom alpha models for rapid prototyping and seamless deployment to paper or live accounts. Incorporated dynamic position sizing and stop-loss/take-profit mechanisms to improve drawdown control, boosting simulated CAGR by approximately 12% over baseline in multi-year tests. Created a matplotlib-powered visualization suite for equity curves, drawdowns, and PnL distributions, and built a CLI interface for flexible strategy execution in both historical and streaming modes. The GitHub repository includes a detailed README, usage examples, performance chart screenshots, and live-trading demonstrations.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Pandas",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Numpy",
         color: "pink-text-gradient",
       },
     ],
-    image: clucker,
-    source_code_link: "https://github.com/HarisK15/TeamOrange",
+    image: Backtest,
+    source_code_link: "h",
   },
 ];
 

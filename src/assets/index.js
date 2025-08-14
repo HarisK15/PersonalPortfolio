@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import Crypto from "./Crypto.png";
 import Terranova from "./Terranova.png";
 import clucker from "./Clucker.png";
+import Backtest from "./Backtest.png";
 
 export {
   logo,
@@ -67,5 +68,6 @@ export {
   Crypto,
   tripguide,
   Terranova,
-  clucker
+  clucker,
+  Backtest
 };
